@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	background-image: url("slike/IMG_3401.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20px;
+	
+
+}
+.pozadina1{
+	width: 100%;
+	height: 80px;
+	background-color: #101010;
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+	
+.unutra {
+	
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: #101010;
+}
+.emilnovak h2{
+	height: 100%;
+	display: table-cell;
+	float: left;
+	color:#D71313;
+	letter-spacing: 1px;
+	font-size: 28px;
+	font-family: EmilNovak;
+	vertical-align: center;
+	text-decoration: none;
+	
+	
+}
+
+.emilnovak a{
+	color: #D71313
+}
+
+.stranice{
+	float: right;
+	height: 100%;
+	
+	
+}
+
+
+
+.stranice a{
+	font-family: "Bebas Neue";
+	float: left;
+	height: 100%;
+	display: table;
+	padding: 10px 20px;
+}
+
+.stranice a li{
+	display: table-cell;
+	vertical-align: center;
+	height: 100%;
+	font-family: "Bebas Neue";
+	font-size: 28px;
+	color:#D71313;
+}
+	
+	
+
+.pozdrav {
+	height: 100%;
+	display: table-cell;
+	float: left;
+	color:#D71313;
+	letter-spacing: 2px;
+	font-size: 20px;
+	font-family: "Bebas Neue";
+	
+	
+}
+
+a:hover {
+	background-color: #1D1D1D;
+	text-decoration: none;
+	
+}
+
+
+.tekst1 {
+	font-family: "Bebas Neue";
+	font-size: 28px;
+	color: #D71313;
+	text-align: justify;
+	text-transform: none;
+	padding: 0px 50px;
+}
+
+.dobrodosli {
+	display: flex;
+	width: 100%;
+	padding: 60px 0;
+	text-align: center;
+	font-family: "Bebas Neue";
+	color: #D71313;
+	font-size: 128px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.textbox {
+	display: block;
+	width: 50%;
+	padding: 40px;
+	box-sizing: border-box;
+	
+}
+
+.slika1 {
+	height: 100%;
+	width: 50%;
+	
+}
+.slika1 img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.iza {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 1000px;
+	height: 600px;
+	background-color: #101010;
+	margin-top: 80px;
+	padding: 5px 5px;
+	
+	
+}
+
+	
+.kvadrat iframe {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	padding-bottom: 15px;
+
+}
+
+.kvadrat {
+	width: 800px;
+	height: 250px;
+	background-color: #101010;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	margin-top: 30px;
+}
+
+
+
+.kvadrat img {
+	width: 32%;
+	height: 100%;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.video1 {
+	width: 800px;
+	height: 500px;
+	margin-bottom: 30px;
+}
+
+.video-embed {
+	width: 97%;
+	max-width: 900px;
+	height: 100%;
+	border-radius: 8px;
+	margin: 0px 10px;
+}
+
+.video-kutija {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.iza2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 1000px;
+	height: auto;
+	background-color: #101010;
+	margin-top: 80px;
+	padding: 5px 5px;
+	margin-bottom: 30px;
+}
+
+.svi-kvadrati {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+	margin-top: 50px;
+}
+
+.kvadrat2 {
+	width: 800px;
+	height: 250px;
+	background-color: #101010;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	box-sizing: border-box;
+	gap: 10px;
+	margin-top: 30px;
+}
+
+.kvadrat2 img {
+	width: 32%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.kvadrat2 .tekst1 {
+	width: 68%;
+	font-size: 24px;
+	color: #D71313;
+	font-family: "Bebas Neue";
+}
+
+.video-kvadrat {
+	width: 800px;
+	height: 100%;
+	background-color: #101010;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.video-kvadrat .tekst1 {
+	font-size: 24px;
+	margin-bottom: 15px;
+	text-align: center;
+	color: #D71313;
+	font-family: "Bebas Neue";
+}
+
+.video2 {
+	width: 100%;
+	height: 100%;
+}
+
+.video2 video {
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	object-fit: cover;
+	
+}
